@@ -1,0 +1,53 @@
+{
+  "idx": 2,
+  "slug": "code-of-conduct-for-ai",
+  "title": "AI Practitioner Code of Conduct",
+  "interaction": {
+    "buttons": [
+      "The Code",
+      "Evaluating Evidence"
+    ],
+    "headings": [
+      "Evaluating Evidence",
+      "What to learn",
+      "What relevance does the claim have for you?",
+      "What kind of AI is this claim about?",
+      "What period of time is the claim relevant to?",
+      "Which model version?",
+      "Context of the claim?",
+      "Practice Scenarios",
+      "Scenario 1: Casual claim citing a study",
+      "Scenario 2: Medical diagnosis reliability",
+      "Scenario 3: Systematic reviews in medical education",
+      "Scenario 4: Headline research on AI and poverty",
+      "Scenario 5: Claims about AI energy use"
+    ],
+    "textLength": 2708
+  },
+  "scenario": {
+    "buttons": [
+      "The Code",
+      "Evaluating Evidence",
+      "Back to Scenarios",
+      "The claim is too short to be evaluated.",
+      "It cites a blog post referring to a study on a different, older model (Llama 2), not ChatGPT.",
+      "Summarizing is actually the only thing AI can do well.",
+      "There is no flaw; the claim is accurate.",
+      "Check Answer"
+    ],
+    "headings": [
+      "Scenario 1: Casual claim citing a study",
+      "Scenario Context",
+      "Expert Analysis",
+      "Your Assessment"
+    ],
+    "textLength": 1496
+  },
+  "quiz": {
+    "correctFeedback": true,
+    "excerpt": "a 2 had been superseded by Llama 3 which has increased in capabilities.\n\nAlso, this is a claim that can be readily disproven, by asking ChatGPT to summarise the blog post in various forms.\nYour Assessment\n\nEvaluate the claim based on the Code of Conduct.\n\nWhat is the primary flaw in this claim regarding the evidence used?\n\nThe claim is too short to be evaluated.\nIt cites a blog post referring to a study on a different, older model (Llama 2), not ChatGPT.\nSummarizing is actually the only thing AI can do well.\nThere is no flaw; the claim is accurate.\n\nCorrect Assessment\n\nGreat job! See the analysis for details.\n\nDraft proposal for AI Code of Conduct. Content adapted for demonstration purposes.",
+    "textLength": 1506
+  },
+  "results": "- Clean `npm ci --no-audit --no-fund --cache .npm-cache`: passed (140 packages).\n- `npm run typecheck`: passed.\n- `GEMINI_API_KEY=STATIC_BUILD_TEST_SENTINEL API_KEY=STATIC_BUILD_TEST_SENTINEL npm run build`: passed.\n- `npm run check:static`: passed; real module entry, compiled CSS and local fonts; no runtime CDNs, injected key or sentinel.\n- T3 background production preview: Code of Conduct landing heading and 3,104 text characters; zero external landing-page resource requests.\n- Practice Scenarios opened five scenario cards. Scenario 1 opened assessment. Selected the existing correct answer and clicked Check Answer: Correct Assessment appeared and expert analysis remained available.\n- All authored scenario content and application logic unchanged. No exhaustive check of every scenario or viewport. T3 accessibility snapshots time out; DOM evaluation and locator clicks succeeded.\n- npm reported unapproved optional install scripts; installation/build succeeded without changing machine policy.\n- No deployment, DNS/GCP changes, licence changes or model calls.",
+  "limitation": "Full scenario coverage and every viewport were not exhaustively tested."
+}
