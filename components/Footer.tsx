@@ -1,3 +1,4 @@
+import { CiteThisPage } from '../citation/CiteThisPage';
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -8,6 +9,7 @@ const Footer: React.FC = () => {
           Draft proposal for AI Code of Conduct. Content adapted for demonstration purposes.
         </p>
       </div>
+      <CiteThisPage />
     </footer>
   );
 };
